@@ -10,7 +10,7 @@ t = int(input("Masukkan tinggi kerucut : "))
 # ALGORITMA
 
 luasK = 3.14*r(r+s)
-volumeK = 1/3*3.14*r*t
+volumeK = 1/3*3.14*r**2*t
 
 # HASIL/OUTPUT
 
