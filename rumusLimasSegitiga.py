@@ -9,9 +9,9 @@ def limas_segitiga():
 
 # ALGORITMA
     
-    LP= LA + (3*LST)
-    V = 1/3 * LA * T
-    print(f'''LUAS PERMUKAAN LIMAS SEGITIGA : {LP}
-VOLUME LIMAS SEGITIGA : {V}''')
+    LP= lambda LA,LST : LA + (3*LST)
+    V = lambda LA,T : 1/3 * LA * T
+    print(f'''LUAS PERMUKAAN LIMAS SEGITIGA : {LP(LA,LST)}
+VOLUME LIMAS SEGITIGA : {round(V(LA,T))}''')
 
 limas_segitiga()
