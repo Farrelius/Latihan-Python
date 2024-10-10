@@ -1,18 +1,22 @@
 # PROGRAM FORMULA KERUCUT
 # 07/10/2024 19:37
 
+def kerucut():
+
 # MENGAMBIL DATA DARI INPUT USER
 
-r = int(input("Masukkan jari jari kerucut : "))
-s = int(input("Masukkan sisi kerucut : "))
-t = int(input("Masukkan tinggi kerucut : "))
+    R = int(input("Masukkan jari jari kerucut : "))
+    S = int(input("Masukkan sisi kerucut : "))
+    T = int(input("Masukkan tinggi kerucut : "))
 
 # ALGORITMA
 
-luasK = 3.14*r(r+s)
-volumeK = 1/3*3.14*r**2*t
+    luasK = lambda R,S : 3.14*R*R + R*S
+    volumeK = lambda R,T : 1/3*3.14*R**2*T
 
 # HASIL/OUTPUT
 
-print(f'''LUAS KERUCUT : {luasK}
-VOLUME KERUCUT : {volumeK}''')
+    print(f'''LUAS KERUCUT : {luasK(R,S)}
+VOLUME KERUCUT : {volumeK(R,T)}''')
+    
+kerucut()
