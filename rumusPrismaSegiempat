@@ -1,0 +1,20 @@
+# PROGRAM RUMUS PRISMA SEGITIGA BY FARREL
+# 20/10/2024 14:37
+
+def prisma_segiempat():
+
+# AMBIL DATA DARI INPUT USER 
+
+    LA = int(input("Masukkan Luas Alas Prisma Segiempat : "))
+    T = int(input("Masukkan Tinggi Prisma Segiempat: "))
+    KA = int(input("Masukkan Keliling Alas Prisma Segiempat : "))
+
+# ALGORITMA
+
+    L = lambda LA,KA,T:  (2*LA)+(KA*T)
+    V = lambda LA,T : LA*T
+
+    print(f'''LUAS PRISMA SEGITIGA ADALAH = {L(LA,KA,T)}
+VOLUME PRISMA SEGITIGA ADALAH = {V(LA,T)}''')
+    
+prisma_segiempat()
