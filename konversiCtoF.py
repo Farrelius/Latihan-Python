@@ -1,5 +1,5 @@
 # KONVERSI CELCIUS KE FAHRENHEIT BY FARREL
-# 08-11-2024
+# 23-11-2024 16:32
 
 c = float(input("Masukkan nilai suhu celcius nya : "))
 
