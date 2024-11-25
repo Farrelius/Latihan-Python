@@ -13,4 +13,4 @@ EP = lambda m,g,h : m*g*h
 
 # OUTPUT/HASIL
 
-print(f"Energi potensialnya adalah : {EP(m,g,h)}")
+print(f"Energi potensialnya adalah : {EP(m,g,h)} J")
