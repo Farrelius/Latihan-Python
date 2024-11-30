@@ -1,5 +1,5 @@
-q = float(input("Masukkan muatan listrik : "))
-V = float(input("Masukkan potensial listrik : "))
+q = float(input("Masukkan muatan listrik (C): "))
+V = float(input("Masukkan potensial listrik (V): "))
 
 W = q*V
 
